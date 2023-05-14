@@ -1,0 +1,19 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/* Show Tab Close Button On Hover */
+
+tab.tabbrowser-tab:not(:hover) > .tab-stack > .tab-content > .tab-close-button,
+tab.tabbrowser-tab:not([selected]) > .tab-stack > .tab-content > .tab-close-button {
+	display: none !important;
+}
+
+tab.tabbrowser-tab:hover:not([pinned]) > .tab-stack > .tab-content > .tab-close-button,
+tab.tabbrowser-tab[selected]:not([pinned]) > .tab-stack > .tab-content > .tab-close-button {
+	display: inline !important;
+}
+
+tab.tabbrowser-tab > .tab-stack > .tab-content > .tab-close-button:hover {
+	background-color: rgba(109, 108, 121, .45) !important;
+	fill: white !important;
+	display: inline !important;
+}
