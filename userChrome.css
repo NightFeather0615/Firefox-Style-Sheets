@@ -1,5 +1,5 @@
-@import url(tabCloseButton.css);
-@import url(tablerIcon.css);
-@import url(googleSans.css);
+@import url(styles/googleSans.css);
+@import url(styles/tabCloseButton.css);
+@import url(styles/tablerIcon.css);
 
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
