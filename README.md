@@ -1,4 +1,4 @@
-# My Own Firefox Stylesheet Setup
+# My Own Firefox Style Sheets Setup
 - userChrome.css
   - Icon: [Tabler](https://github.com/tabler/tabler-icons)
   - Font: `Google Sans`, `Product Sans` (DM me on [Discord](https://discord.com/users/283841865403465728) if you want this font.)
