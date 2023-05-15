@@ -6,6 +6,7 @@
   - iconOverride.css
     - Icon Source: [Tabler](https://github.com/tabler/tabler-icons)
     - Modified to fit FireFox's SVG rules. (`currentColor` -> `context-fill`, etc.)
+    - Supports [TWP - Translate Web Pages](https://github.com/FilipePS/Traduzir-paginas-web)'s URL bar icon.
   - tabCloseButton.css
     - Show close button when mouse hover on tab.
 
