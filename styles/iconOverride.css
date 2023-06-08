@@ -141,6 +141,10 @@
   list-style-image: url(icons/arrow-right.svg) !important;
 }
 
+#identity-box[pageproxystate="valid"].weakCipher #identity-icon, #identity-box[pageproxystate="valid"].mixedDisplayContent #identity-icon, #identity-box[pageproxystate="valid"].mixedDisplayContentLoadedActiveBlocked #identity-icon, #identity-box[pageproxystate="valid"].certUserOverridden #identity-icon, #identity-box[pageproxystate="valid"].certErrorPage #identity-icon {
+  list-style-image: url(icons/lock-exclamation.svg);
+}
+
 #identity-box[pageproxystate="valid"].notSecure #identity-icon, #identity-box[pageproxystate="valid"].mixedActiveContent #identity-icon, #identity-box[pageproxystate="valid"].httpsOnlyErrorPage #identity-icon {
   list-style-image: url(icons/lock-off.svg) !important;
 }
