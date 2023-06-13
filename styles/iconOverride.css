@@ -110,7 +110,7 @@
 
 .urlbar-page-action[actionid="_036a55b4-5e72-4d05-a06c-cba2dfcc134a_"][style$='mc+CiAgICAgICAgICAgICAgICA=");'] > .urlbar-icon {
   fill-opacity: 1 !important;
-  fill: var(--toolbar-field-icon-fill-attention) !important;
+  fill: var(--toolbarbutton-icon-fill-attention) !important;
 }
 
 #pageAction-panel-bookmark[starred], #star-button[starred] {
