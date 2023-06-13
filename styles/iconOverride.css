@@ -439,3 +439,15 @@ toolbarbutton#scrollbutton-down {
 #PlacesChevron, #nav-bar-overflow-button {
   list-style-image: url(icons/chevrons-right.svg) !important;
 }
+
+#bookmarks-toolbar-button, #bookmarks-toolbar-placeholder {
+  list-style-image: url(icons/sparkles.svg) !important;
+}
+
+#picture-in-picture-button[pipactive] > .urlbar-icon {
+  list-style-image: url(icons/picture-in-picture-on.svg) !important;
+}
+
+#picture-in-picture-button > .urlbar-icon {
+  list-style-image: url(icons/picture-in-picture-off.svg) !important;
+}
