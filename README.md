@@ -10,4 +10,12 @@
   - tabCloseButton.css
     - Show close button when mouse hover on tab.
 
+# Installation
+1. Follow the [official guide](https://support.mozilla.org/en-US/kb/contributors-guide-firefox-advanced-customization)
+   - Clone this repo to Firefox profile folder and rename cloned folder to `chrome`
+2. Edit `about:config`
+    - `toolkit.legacyUserProfileCustomizations.stylesheets` = `true`
+    - `svg.context-properties.content.enabled` = `true`
+    - `layout.css.color-mix.enabled` = `true`
+
 ![Preview](https://cdn.discordapp.com/attachments/917129797510000691/1107395825593757766/image.png)
