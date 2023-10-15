@@ -1,5 +1,5 @@
-@import url(styles/fontOverride.css);
-@import url(styles/iconOverride.css);
-@import url(styles/tabCloseButton.css);
+@import url(userChrome/fontOverride.css);
+@import url(userChrome/iconOverride.css);
+@import url(userChrome/tabCloseButton.css);
 
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);

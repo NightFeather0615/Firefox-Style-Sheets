@@ -1,0 +1,142 @@
+@namespace html "http://www.w3.org/1999/xhtml";
+@namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
+
+@-moz-document url-prefix(about:preferences) {
+  .textbox-search-sign, .textbox-search-icon {
+    list-style-image: url("../assets/icons/search.svg") !important;
+    -moz-context-properties: fill, fill-opacity;
+    fill: #939393;
+  }
+  
+  #category-general > .category-icon {
+    list-style-image: url("../assets/icons/settings.svg") !important;
+  }
+  
+  #category-home > .category-icon {
+    list-style-image: url("../assets/icons/home.svg") !important;
+  }
+  
+  #category-search > .category-icon {
+    list-style-image: url("../assets/icons/search.svg") !important;
+  }
+  
+  #category-privacy > .category-icon {
+    list-style-image: url("../assets/icons/lock.svg") !important;
+  }
+  
+  #category-sync > .category-icon {
+    list-style-image: url("../assets/icons/refresh.svg") !important;
+  }
+  
+  #category-more-from-mozilla > .category-icon {
+    list-style-image: url("../assets/icons/brand-firefox.svg") !important;
+  }
+  
+  .addons-icon {
+    list-style-image: url("../assets/icons/puzzle.svg") !important;
+  }
+  
+  .help-icon {
+    list-style-image: url("../assets/icons/help.svg") !important;
+  }
+  
+  .sync-engine-bookmarks .checkbox-icon,
+  .sync-engine-bookmarks.sync-engine-image {
+    list-style-image: url("../assets/icons/star-filled.svg") !important;
+  }
+  
+  .sync-engine-addresses .checkbox-icon,
+  .sync-engine-addresses.sync-engine-image {
+    list-style-image: url("../assets/icons/address-book.svg") !important;
+  }
+  
+  .sync-engine-history .checkbox-icon,
+  .sync-engine-history.sync-engine-image {
+    list-style-image: url("../assets/icons/history.svg") !important;
+  }
+  
+  .sync-engine-creditcards .checkbox-icon,
+  .sync-engine-creditcards.sync-engine-image {
+    list-style-image: url("../assets/icons/credit-card.svg") !important;
+  }
+  
+  .sync-engine-tabs .checkbox-icon,
+  .sync-engine-tabs.sync-engine-image {
+    list-style-image: url("../assets/icons/devices.svg") !important;
+  }
+  
+  .sync-engine-addons .checkbox-icon,
+  .sync-engine-addons.sync-engine-image {
+    list-style-image: url("../assets/icons/puzzle.svg") !important;
+  }
+  
+  .sync-engine-passwords .checkbox-icon,
+  .sync-engine-passwords.sync-engine-image {
+    list-style-image: url("../assets/icons/key.svg") !important;
+  }
+  
+  .sync-engine-prefs .checkbox-icon,
+  .sync-engine-prefs.sync-engine-image {
+    list-style-image: url("../assets/icons/settings.svg") !important;
+  }
+
+  #firefox-mobile {
+    background-image: url("../assets/icons/device-mobile.svg") !important;
+  }
+  
+  #firefox-relay {
+    background-image: url("../assets/icons/3d-cube-sphere.svg") !important;
+  }
+  
+  #trackingProtectionShield {
+    list-style-image: url("../assets/icons/shield.svg") !important;
+  }
+  
+  .reload-tabs-button {
+    list-style-image: url("../assets/icons/reload.svg") !important;
+  }
+  
+  .info-icon {
+    content: url("../assets/icons/info-circle.svg") !important;
+  }
+  
+  .content-blocking-warning-image {
+    list-style-image: url("../assets/icons/alert-triangle-filled.svg") !important;
+  }
+  
+  .arrowhead {
+    list-style-image: url("../assets/icons/chevron-down-12.svg") !important;
+  }
+  
+  xul|menulist::part(dropmarker) {
+    list-style-image: url("../assets/icons/chevron-down-12.svg") !important;
+  }
+  
+  .geo-icon {
+    list-style-image: url("../assets/icons/map-pin.svg") !important;
+  }
+  
+  .camera-icon {
+    list-style-image: url("../assets/icons/video.svg") !important;
+  }
+  
+  .microphone-icon {
+    list-style-image: url("../assets/icons/microphone.svg") !important;
+  }
+  
+  .speaker-icon {
+    list-style-image: url("../assets/icons/volume.svg") !important;
+  }
+  
+  .desktop-notification-icon {
+    list-style-image: url("../assets/icons/message.svg") !important;
+  }
+  
+  .autoplay-icon {
+    list-style-image: url("../assets/icons/device-tv.svg") !important;
+  }
+  
+  .xr-icon {
+    list-style-image: url("../assets/icons/cardboards.svg") !important;
+  }
+}
