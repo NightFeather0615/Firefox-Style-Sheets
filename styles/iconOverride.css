@@ -2,14 +2,6 @@
 
 /* Replace Icon with Tabler Icons */
 
-:root {
-  --avatar-image-url: url(icons/user-filled.svg) !important;
-}
-
-:root[fxastatus="not_configured"] {
-  --avatar-image-url: url(icons/user.svg) !important;
-}
-
 #urlbar-input-container[pageproxystate="valid"] > #tracking-protection-icon-container > #tracking-protection-icon-box > #tracking-protection-icon {
   list-style-image: url(icons/shield.svg) !important;
 }
@@ -486,6 +478,14 @@ toolbarbutton#scrollbutton-down {
 
 #urlbar-search-mode-indicator-close {
   background: url(icons/x.svg) no-repeat center !important;
+}
+
+:root {
+  --avatar-image-url: url(icons/user-filled.svg) !important;
+}
+
+:root[fxastatus="not_configured"] {
+  --avatar-image-url: url(icons/user.svg) !important;
 }
 
 #urlbar-go-button,
