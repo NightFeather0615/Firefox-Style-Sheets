@@ -492,3 +492,7 @@ toolbarbutton#scrollbutton-down {
 .search-go-button {
   list-style-image: url(../assets/icons/arrow-right.svg) !important;
 }
+
+#password-notification-icon {
+  list-style-image: url(../assets/icons/key.svg) !important;
+}
