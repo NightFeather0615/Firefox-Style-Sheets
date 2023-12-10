@@ -2,7 +2,7 @@
 - userChrome.css
   - fontOverride.css
     - Font Source: `Google Sans`, `Product Sans`
-    - You can get both fonts by extracting assets from a Pixel phone, or by DM me on [Discord](https://discord.com/users/283841865403465728)
+    - You can get both fonts by extracting assets from a Pixel phone or open an issue.
   - iconOverride.css
     - Icon Source: [Tabler](https://github.com/tabler/tabler-icons)
     - Modified to fit FireFox's SVG rules. (`currentColor` -> `context-fill`, etc.)
